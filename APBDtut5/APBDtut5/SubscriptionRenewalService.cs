@@ -11,10 +11,7 @@ namespace LegacyRenewalApp
         private readonly ISubscriptionPlanRepository planRepository;
         private readonly IBillingGateway billingGateway;
         private readonly DiscountCalculator discountCalculator;
-        public SubscriptionRenewalService(ICustomerRepository customerRepo,
-        ISubscriptionPlanRepository planRepo,
-        IBillingGateway gateway,
-        DiscountCalculator calculator)
+        public SubscriptionRenewalService()
         {
             customerRepository = new CustomerRepositoryWrapper();
             planRepository = new SubscriptionPlanRepositoryWrapper();
