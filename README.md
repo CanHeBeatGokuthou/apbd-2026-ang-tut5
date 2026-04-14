@@ -12,7 +12,7 @@ It's a set of small classes implementign a common IDiscountRule interface. It br
 
 
 DiscountCalculator:
-Well it's idea is selfexplainatory it takes raw data and return a specyfic discount(here also at the beggining is part of code that is nowhere use but it's a leftover from my original idea). it's a Single Responsibility Principle(SRP) class
+Well it's idea is selfexplainatory it takes raw data and return a specyfic discount. It's a Single Responsibility Principle(SRP) class
 
 
 
