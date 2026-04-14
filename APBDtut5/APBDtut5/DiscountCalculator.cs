@@ -3,8 +3,6 @@ using Discount;
 using LegacyRenewalApp;
 namespace APBDtut5;
 
-public delegate (decimal Amount, string Note) DiscountRule(
-Customer c , SubscriptionPlan p, int seats, decimal baseAmount,bool useLoyaltyPoints);
 public class DiscountCalculator
 {
     private readonly IEnumerable<IDiscountRule> rules;
